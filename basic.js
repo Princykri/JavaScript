@@ -71,3 +71,40 @@ let arr=[2 ,4,5,6,8,2,12];
 arr.forEach(function(element){
    console.log(element);
 }) 
+
+
+// dom manupulation 
+
+// css manupulation 
+document.getElementById('click').click();
+let elem=document.getElementById('click');
+console.log(elem);
+document.getElementById('click').style.border="blue";
+document.getElementById('click').style.border="2px solid blue";
+
+let emclass=document.getElementsByClassName('container');
+console.log(emclass);
+// emclass[0].style.background="yellow";      --> high priority
+emclass[0].classList.add("bgprimary");
+emclass[0].classList.add("text-success");
+emclass[0].classList.remove("text-success")
+console.log(emclass[0].innerHTML);
+ console.log(emclass[0].innerText);
+
+ // html manupulation 
+ let tn= document.getElementsByTagName('div');
+ console.log (tn);
+ let CreatedElement=document.createElement('p');
+ CreatedElement.innerText="this is created para";
+ tn[0].appendChild(CreatedElement);
+
+ let CreatedElement2=document.createElement('b');
+ CreatedElement2.innerText="this is created bold para ";
+ tn[0].replaceChild( CreatedElement2, CreatedElement);
+
+
+//  selecting using query
+sel=document.querySelector('.container') // -->give first container
+console.log(sel);
+sel=document.querySelectorAll('.container') // -->give all container
+console.log(sel);
