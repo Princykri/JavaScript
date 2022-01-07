@@ -108,3 +108,37 @@ sel=document.querySelector('.container') // -->give first container
 console.log(sel);
 sel=document.querySelectorAll('.container') // -->give all container
 console.log(sel);
+
+// javascript event 
+function clicked(){
+   console.log("button was clicked");
+}
+
+window.onload=function(){
+    console.log("document is loaded");
+}
+
+// firstContainer.addEventListener('click',function(){
+//     document.querySelectorAll('.container')[1].innerHTML="<b> we have just clicked on firstcontainer </b>";
+//     console.log("firstconatiner is clicked");
+// })
+
+// firstContainer.addEventListener('mouseover',function(){
+//     console.log("mouse on firstcontainer");
+// })
+
+// firstContainer.addEventListener('mouseout',function(){
+//     console.log("mouse out of firstcontainer")
+// })
+
+// let prevHTML=document.querySelectorAll('.container')[1].innerHTML;
+
+// firstContainer.addEventListener('mouseup',function(){
+//     document.querySelectorAll('.container')[1].innerHTML=  prevHTML ;
+//        console.log("mouse up when click on  firstcontainer");
+// })
+
+// firstContainer.addEventListener('mousedown',function(){
+//     document.querySelectorAll('.container')[1].innerHTML="<b> we have down the mouse   </b>";
+//     console.log("mouse down when click on  firstcontainer");
+ // })
