@@ -1,0 +1,47 @@
+body{
+   background-color: rgb(221, 231, 231);
+}
+
+
+.container{
+    text-align: center;
+    font-weight: 700;
+    text-decoration: underline;
+    
+}
+table{
+    margin:auto;
+}
+input{
+    margin: 6px 5px;
+    font-size: 38px;
+    border: 2px solid rgb(185, 185, 173);
+    border-radius: 20px;
+    text-align: end;
+    box-shadow: inset 2px 2px 10px rgb(189, 172, 172),
+                      2px 2px 10px rgba(0,0,0,.16);
+    
+}
+button{
+    font-size: 30px;
+    border: none;
+    width: 100px;
+    height: 70px;
+    margin: 3px;
+    background-color: rgb(192, 181, 181);
+    border-radius: 50%;
+    border-radius: none;
+    box-shadow: inset -5px -5px 12px rgb(189, 172, 172),
+                       5px 5px 12px rgba(0,0,0,.16);;
+}
+.cal{
+    margin: 5px 5px;
+    display: inline-block;
+    background-color: rgb(226, 220, 217);
+    padding: 8px;
+    border-radius: 30px;
+    border: 2px solid rgb(192, 181, 181);
+}
+ button:hover{
+     background-color: rgb(168, 156, 156);
+ }
